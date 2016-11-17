@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{BB0353EA-0B77-49C3-A393-789D3FB91489}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XFDemo2" expanded="True">
+            <Node name="XFDemo2.Droid" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XFDemo2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.64FEA5D3-A89C-4CB3-8153-0866F528E20E" />
+  <MonoDevelop.Ide.ItemProperties.XFDemo2.Droid PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
+</Properties>

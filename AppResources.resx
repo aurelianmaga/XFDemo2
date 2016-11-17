@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ForwardButtonText" xml:space="preserve">
+    	<value>&gt;</value>
+	</data>
+	<data name="BackButtonText" xml:space="preserve">
+    	<value>&lt;</value>
+	</data>
+	<data name="MainHeaderLabelText" xml:space="preserve">
+    	<value>Main Screen</value>
+ 	</data>
+	<data name="ContactButtonText" xml:space="preserve">
+    	<value>Contacts</value>
+ 	</data>
+	<data name="Option5ButtonText" xml:space="preserve">
+    	<value>Option 5</value>
+	</data>
+	<data name="Option4ButtonText" xml:space="preserve">
+    	<value>Option 4</value>
+	</data>
+	<data name="Option3ButtonText" xml:space="preserve">
+    	<value>Option 3</value>
+	</data>
+	<data name="Option2ButtonText" xml:space="preserve">
+    	<value>Option 2</value>
+	</data>
+	<data name="Option1ButtonText" xml:space="preserve">
+    	<value>Lorem Ipsum</value>
+	</data>
+	<data name="Option6ButtonText" xml:space="preserve">
+    	<value>Option 6</value>
+	</data>
+    <data name="Contacts" xml:space="preserve">
+		<value>Contacts</value>
+	</data>
+	<data name="Contacts.0" xml:space="preserve">
+		<value>Department 1</value>
+	</data>
+	<data name="Contacts.0.0" xml:space="preserve">
+		<value>First1 Last1</value>
+	</data>
+	<data name="Contacts.0.0.0.Tel" xml:space="preserve">
+		<value>Direct: +40 72 254 2135</value>
+	</data>
+	<data name="Contacts.0.0.1.Tel" xml:space="preserve">
+		<value>Mobile: +40 72 254 2135</value>
+	</data>
+	<data name="Contacts.0.1" xml:space="preserve">
+		<value>First2 Last2</value>
+	</data>
+	<data name="Contacts.0.1.0.Tel" xml:space="preserve">
+		<value>Direct: +40 72 254 2135</value>
+	</data>
+	<data name="Contacts.0.1.1.Tel" xml:space="preserve">
+		<value>Mobile: +40 72 254 2135</value>
+	</data>
+	<data name="Contacts.0.2" xml:space="preserve">
+		<value>First3 Last3</value>
+	</data>
+	<data name="Contacts.0.2.0.Tel" xml:space="preserve">
+		<value>Direct: +40 72 254 2135</value>
+	</data>
+	<data name="Contacts.0.2.1.Tel" xml:space="preserve">
+		<value>Mobile: +40 72 254 2135</value>
+	</data>
+	<data name="Contacts.1" xml:space="preserve">
+		<value>Department 2</value>
+	</data>
+	<data name="Contacts.1.0" xml:space="preserve">
+		<value>First1 Last1</value>
+	</data>
+	<data name="Contacts.1.0.0.Tel" xml:space="preserve">
+		<value>Direct: +40 72 254 2135</value>
+	</data>
+	<data name="Contacts.1.0.1.Tel" xml:space="preserve">
+		<value>Mobile: +40 72 254 2135</value>
+	</data>
+	<data name="Option1" xml:space="preserve">
+    	<value>Lorem Ipsum</value>
+	</data>	
+	<data name="Option1.0.End" xml:space="preserve">
+    	<value>Lorem Ipsum</value>
+	</data>	
+	<data name="Option1.1.Topic" xml:space="preserve">
+    	<value>Lorem Ipsum ...</value>
+	</data>	
+	<data name="Option1.1.Topic.Text" xml:space="preserve">
+    	<value>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </value>
+	</data>	
+</root>

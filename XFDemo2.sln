@@ -1,0 +1,121 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFDemo2", "XFDemo2.csproj", "{12754661-C9DD-482B-B638-9383298CA109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFDemo2.iOS", "iOS\XFDemo2.iOS.csproj", "{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFDemo2.Droid", "Droid\XFDemo2.Droid.csproj", "{BB0353EA-0B77-49C3-A393-789D3FB91489}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12754661-C9DD-482B-B638-9383298CA109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Release|iPhone.Build.0 = Release|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{12754661-C9DD-482B-B638-9383298CA109}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Release|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Release|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Release|iPhone.Build.0 = Release|iPhone
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Release|iPhone.Build.0 = Release|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{BB0353EA-0B77-49C3-A393-789D3FB91489}.Debug|iPhone.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = Hierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.inheritsSet = null
+		$2.inheritsScope = text/plain
+		$2.scope = text/microsoft-resx
+		$2.TabsToSpaces = False
+		$0.XmlFormattingPolicy = $3
+		$3.inheritsSet = Mono
+		$3.scope = application/xml
+		$3.inheritsScope = application/xml
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = null
+		$4.scope = application/xml
+		$0.XmlFormattingPolicy = $5
+		$5.inheritsSet = Mono
+		$5.inheritsScope = application/xml
+		$5.scope = application/xml
+		$0.TextStylePolicy = $6
+		$6.FileWidth = 120
+		$6.TabsToSpaces = False
+		$6.inheritsSet = VisualStudio
+		$6.inheritsScope = text/plain
+		$6.scope = text/plain
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = text/microsoft-resx
+		$0.XmlFormattingPolicy = $8
+		$8.inheritsSet = null
+		$8.scope = text/microsoft-resx
+		$0.TextStylePolicy = $9
+		$9.FileWidth = 120
+		$9.TabWidth = 2
+		$9.IndentWidth = 2
+		$9.inheritsSet = VisualStudio
+		$9.inheritsScope = text/plain
+		$9.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $10
+		$10.IndentSwitchSection = True
+		$10.NewLinesForBracesInProperties = True
+		$10.NewLinesForBracesInAccessors = True
+		$10.NewLinesForBracesInAnonymousMethods = True
+		$10.NewLinesForBracesInControlBlocks = True
+		$10.NewLinesForBracesInAnonymousTypes = True
+		$10.NewLinesForBracesInObjectCollectionArrayInitializers = True
+		$10.NewLinesForBracesInLambdaExpressionBody = True
+		$10.NewLineForElse = True
+		$10.NewLineForCatch = True
+		$10.NewLineForFinally = True
+		$10.NewLineForMembersInObjectInit = True
+		$10.NewLineForMembersInAnonymousTypes = True
+		$10.NewLineForClausesInQuery = True
+		$10.SpacingAfterMethodDeclarationName = False
+		$10.SpaceAfterMethodCallName = False
+		$10.SpaceBeforeOpenSquareBracket = False
+		$10.inheritsSet = Mono
+		$10.inheritsScope = text/x-csharp
+		$10.scope = text/x-csharp
+		version = 1.1
+	EndGlobalSection
+EndGlobal

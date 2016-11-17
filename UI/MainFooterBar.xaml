@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:XFDemo2.ViewModels;assembly=XFDemo2" xmlns:l10n="clr-namespace:XFDemo2.Localization;assembly=XFDemo2" x:Class="XFDemo2.UI.MainFooterBar" BackgroundColor="{StaticResource MainDarkBackgroundColor}">
+	<ContentView.Content>
+		<StackLayout Orientation="Horizontal">
+			<Button  Command="{Binding ShowSectionPageCommand}" CommandParameter="Contacts" Text="{l10n:Localization ContactButtonText}" Image="PhoneCall.png" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Style="{StaticResource MainFooterButtonStyle}" />
+		</StackLayout>
+	</ContentView.Content>
+</ContentView>

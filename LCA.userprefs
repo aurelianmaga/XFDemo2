@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{40F132FF-2997-4D14-9D5A-2D4A69FB2C9D}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="iOS/Localization/Localize.cs" Line="17" Column="1" />
+      <File FileName="Localization/PlatformCulture.cs" Line="4" Column="21" />
+      <File FileName="Extentions/TranslateExtention.cs" Line="39" Column="1" />
+      <File FileName="Localization/ILocalize.cs" Line="4" Column="27" />
+      <File FileName="AppResources.ro.resx" Line="28" Column="14" />
+      <File FileName="AppResources.resx" Line="12" Column="28" />
+      <File FileName="AppResources.Designer.cs" Line="58" Column="83" />
+      <File FileName="App.xaml.cs" Line="48" Column="33" />
+      <File FileName="Droid/Localization/EmptyClass.cs" Line="38" Column="40" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/aurelianmaga/Projects/LCA/ViewModels/SectionPageViewModel.cs" line="81" column="1" />
+      <Breakpoint enabled="false" file="/Users/aurelianmaga/Projects/LCA/ViewModels/TopicPageViewModel.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="aurelianmaga" Email="aurelian.maga@fortech.ro" Copyright="aurelianmaga" Company="Fortech" Trademark="2016" />
+  <MonoDevelop.Ide.ItemProperties.LCA.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.9dfffa610a0c6f7fc767c653c39bf8e0ab7a26a0" />
+  <MonoDevelop.Ide.ItemProperties.LCA.Droid PreferredExecutionTarget="Android.Nexus 4 (KitKat) - API 19" />
+</Properties>

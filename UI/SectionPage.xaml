@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:XFDemo2.ViewModels;assembly=XFDemo2" xmlns:ui="clr-namespace:XFDemo2.UI;assembly=XFDemo2" xmlns:l10n="clr-namespace:XFDemo2.Localization;assembly=XFDemo2" xmlns:local="clr-namespace:XFDemo2" x:Class="XFDemo2.UI.SectionPage" Style="{StaticResource SectionPageStyle}">
+	<ContentPage.Content>
+		<StackLayout>
+			<ui:MainHeaderBar VerticalOptions="Start" />
+			<StackLayout Orientation="Horizontal">
+				<Button Text="&lt;" Command="{Binding BackCommand}" HorizontalOptions="Start" VerticalOptions="Center" Style="{StaticResource BackButtonStyle}" />
+				<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+					<Label Text="{Binding SectionName}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Style="{StaticResource SectionPageHeaderLabelStyle}" />
+					<Image Source="{Binding ImageName}" HorizontalOptions="End" VerticalOptions="Center" />
+				</StackLayout>
+			</StackLayout>
+			<BoxView Style="{StaticResource SectionPageLineSeparatorStyle}" />
+  			<ListView x:Name="SectionsListView" ItemsSource="{Binding Sections}" SelectedItem="{Binding SelectedSection, Mode=TwoWay}" SeparatorVisibility="None" HasUnevenRows="true">
+  				<ListView.ItemTemplate>
+  					<DataTemplate>
+  						<ViewCell>
+  							<StackLayout BackgroundColor="{StaticResource MainBackgroundColor}">
+  								<Grid RowSpacing="0" ColumnSpacing="0" VerticalOptions="FillAndExpand" Margin="10,0,0,0" Padding="5,5" HorizontalOptions="FillAndExpand">
+  									<Grid.RowDefinitions>
+  										<RowDefinition Height="*" />
+  									</Grid.RowDefinitions>
+  									<Grid.ColumnDefinitions>
+  										<ColumnDefinition Width="*" />
+  										<ColumnDefinition Width="*" />
+  										<ColumnDefinition Width="*" />
+  										<ColumnDefinition Width="*" />
+  										<ColumnDefinition Width="*" />
+  									</Grid.ColumnDefinitions>
+  									<Label Text="{Binding SectionName}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" VerticalOptions="Center" Style="{StaticResource SectionPageLabelStyle}" />
+  									<Label IsVisible="{Binding HasSubSections}" Text="&gt;" Grid.Row="0" Grid.Column="4" HorizontalOptions="End" VerticalOptions="Center" Style="{StaticResource SectionPageArrowLabelStyle}" />
+  								</Grid>
+  								<BoxView Style="{StaticResource SectionPageLineSeparatorStyle}" />
+  							</StackLayout>
+  						</ViewCell>
+  					</DataTemplate>
+  				</ListView.ItemTemplate>
+        <ListView.Footer>
+          <StackLayout x:Name="ListViewFooterWrapper" BackgroundColor="{StaticResource MainBackgroundColor}">
+            <!-- Text label is for padding -->
+            <Label Text="" />
+          </StackLayout>
+        </ListView.Footer>
+			</ListView>
+			<ui:MainFooterBar />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

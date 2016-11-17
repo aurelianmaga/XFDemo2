@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ForwardButtonText" xml:space="preserve">
+    	<value>&gt;</value><comment/>
+	</data>
+	<data name="BackButtonText" xml:space="preserve">
+    	<value>&lt;</value><comment/>
+	</data>
+	<data name="MainHeaderLabelText" xml:space="preserve">
+    	<value>Pagina Principala</value><comment/>
+	</data>
+	<data name="ContactButtonText" xml:space="preserve">
+    	<value>Contacte</value>
+	</data>
+	<data name="Option5ButtonText" xml:space="preserve">
+    	<value>Optiunea 5</value>
+	</data>
+	<data name="Option4ButtonText" xml:space="preserve">
+    	<value>Optiunea 4</value>
+	</data>
+	<data name="Option3ButtonText" xml:space="preserve">
+    	<value>Optiunea 3</value>
+	</data>
+	<data name="Option2ButtonText" xml:space="preserve">
+    	<value>Optiunea 2</value>
+	</data>
+	<data name="Option1ButtonText" xml:space="preserve">
+    	<value>Lorem Ipsum</value>
+	</data>
+	<data name="Option6ButtonText" xml:space="preserve">
+    	<value>Optiunea 6</value>
+	</data>
+</root>

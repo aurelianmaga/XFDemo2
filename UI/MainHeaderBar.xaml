@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:XFDemo2.ViewModels;assembly=XFDemo2" xmlns:l10n="clr-namespace:XFDemo2.Localization;assembly=XFDemo2" x:Class="XFDemo2.UI.MainHeaderBar">
+	<ContentView.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+	</ContentView.Padding>
+	<ContentView.Content>
+		<StackLayout Orientation="Horizontal">
+			<Label Text="{l10n:Localization MainHeaderLabelText}" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Style="{StaticResource MainHeaderLabelStyle}" />
+		</StackLayout>
+	</ContentView.Content>
+</ContentView>
